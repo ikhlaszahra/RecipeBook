@@ -88,10 +88,3 @@ This project demonstrates basic full-stack development skills including CRUD ope
 
 Made with ❤️ by **Ikhlas Zahra**
 
----
-
-If you want, I can also:
-
-* add **GitHub badges (PHP, MySQL, etc.)**
-* make it **more professional like real industry READMEs**
-* or design a **portfolio-ready project card**
