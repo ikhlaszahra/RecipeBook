@@ -1,0 +1,17 @@
+body { font-family: Arial; background: #fef6e4; margin:0; padding:0; }
+header { background:#ff914d; color:white; text-align:center; padding:25px 0; font-size:32px; }
+h2 { text-align:center; color:#ff914d; }
+.form-section, .recipes-section { width:90%; max-width:700px; margin:30px auto; background:white; padding:20px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.1); }
+input, textarea, select { width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #ccc; box-sizing:border-box; }
+button { width:100%; padding:14px; background:#ff914d; color:white; font-size:18px; border:none; border-radius:8px; cursor:pointer; }
+button:hover { background:#d66d26; }
+.recipe-card { background:#fff3e0; padding:15px 20px; margin:15px 0; border-radius:12px; box-shadow:0 2px 5px rgba(0,0,0,0.1); position:relative; }
+.recipe-card h3 { color:#ff914d; margin-top:0; }
+.category { font-style:italic; color:#666; margin-bottom:8px; }
+.edit-btn, .delete-btn { position:absolute; top:15px; padding:6px 10px; border-radius:6px; color:white; text-decoration:none; font-size:14px; }
+.edit-btn { right:70px; background:#3498db; } .edit-btn:hover { background:#2980b9; }
+.delete-btn { right:15px; background:#e74c3c; } .delete-btn:hover { background:#c0392b; }
+.search-form { display:flex; justify-content: space-between; flex-wrap:wrap; margin-bottom:20px; }
+.search-form input, .search-form select { width:48%; margin-bottom:10px; }
+.search-form button { width:100%; }
+@media (max-width:600px){ .form-section, .recipes-section{ width:95%; } .search-form input, .search-form select{ width:100%; } }
